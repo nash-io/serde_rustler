@@ -4,8 +4,8 @@ use crate::Error;
 use rustler::{types::atom::Atom, Encoder, Env, Term};
 
 lazy_static! {
-    pub static ref OK: String = String::from("Ok");
-    pub static ref ERROR: String = String::from("Err");
+    pub static ref OK: String = String::from("ok");
+    pub static ref ERROR: String = String::from("error");
 }
 
 rustler_atoms! {
